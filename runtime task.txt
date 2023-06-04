@@ -1,0 +1,30 @@
+public class Temp{
+
+    public static int Add(int a,int b){
+     return a+b;
+}
+
+ public static int Add(int a,int b, int c)
+  {
+     return c+a+b;
+    }
+
+}
+
+
+public class TempParent{
+
+    public vertiual in Add(int a,int b){
+     return a+b;
+}
+
+
+}
+
+public class Baseclass:TempParent
+{
+
+      public override in Add(int a,int b){
+     return a+b;
+   }
+}
